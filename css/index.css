@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+}
+
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+
+div#navbar {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;  
+    display: block;
+    height: 75px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 1px;
+    border-style: none none solid none;
+    border-color: white;
+    border-width: 0.025em;
+    text-align: center;
+}
+
+div#navbar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+h1#title {
+    float: left;
+    color: white;
+    margin-top: 1px;
+    padding-left: 15px;
+    font-size: 3em;
+}
+
+h3#trainButton {
+    float: right;
+    color: white;
+    margin-top: 30px;
+    border-style: none solid none none;
+    border-color: white;
+    border-width: 0.1em;
+    padding-right: 1%;
+}
+
+h3#eatButton {
+    float: right;
+    color: white;
+    margin-top: 30px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+h3#meButton {
+    float: right;
+    color: white;
+    margin-top: 30px;
+    margin-right: 2%;
+    border-style: none none none solid;
+    border-color: white;
+    border-width: 0.1em;
+    padding-left: 1%;
+}
+
+div.clear {
+    clear: both;
+}
+
+img#gymPhoto {
+    padding-left: 9px;
+    max-width: 99%;
+    max-height: 99%;
+    margin-top: -5px;
+}
+
+div#gymPhoto {
+    background-image: url("../images/gymEdit.jpg");
+    background-size: cover;
+}
+
+div#gymPhoto input[type="submit"]{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;  
+    font-size: 2em;
+    color: white;
+    border-width: 0px;
+    letter-spacing: 0.25em;
+    background-color: #54CF09;
+    margin-left: 41%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
